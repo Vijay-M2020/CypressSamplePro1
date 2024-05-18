@@ -1,0 +1,19 @@
+{
+  "name": "cypresssamplepro1",
+  "version": "1.0.0",
+  "description": "Sample Practice Project1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testRun1": "npx cypress run --headed --browser chrome --spec cypress\\integration\\examples\\Test15_Framework1.cy.js",
+    "testRecord1": "npx cypress run --record --key ca161c93-200c-4bf3-8dc5-446b35580d5e --browser chrome --headed --spec cypress\\integration\\examples\\Test15_Framework1.cy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.3"
+  },
+  "dependencies": {
+    "cypress-iframe": "^1.0.1"
+  }
+}

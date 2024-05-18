@@ -1,0 +1,8 @@
+{
+  "name": "Danial",
+  "gender": "Female",
+  "selectProduct1": "Samsung Note 8",
+  "selectProduct2": "Nokia Edge",
+  "listOfProductToAdd": ["Samsung Note 8", "Nokia Edge"],
+  "deliveryLocation": "India"
+}
